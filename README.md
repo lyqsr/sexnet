@@ -18,6 +18,12 @@
 - 参数数量, 网络深度都小于AlexNet 和　VGG．
 - 内存占用更加
 
+### 文件说明
+WGAN-0.ipynb : 最初用来训练WGAN的代码
+WGAN.ipynb : 加深了生成器之后用来训练的WGAN代码, 参考WGAN官方实现
+finetune.ipynb : 在WGAN-0的判别器的基础之上真假全连接层进行finetune  
+Test.ipynb: 测试集的准确率计算
+
 ### 声明
 **禁止使用本程序进行任何非法行为**
 
